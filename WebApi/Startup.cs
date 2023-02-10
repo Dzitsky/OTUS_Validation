@@ -29,10 +29,10 @@ namespace WebApi
             InstallAutomapper(services);
             services.AddServices(Configuration);
             services.AddControllers()
-                .ConfigureApiBehaviorOptions(options =>
-                {
-                    //options.SuppressModelStateInvalidFilter = true;
-                })
+                //.ConfigureApiBehaviorOptions(options =>
+                //{
+                //    options.SuppressModelStateInvalidFilter = true;
+                //})
 
                 .AddDataAnnotationsLocalization(options =>
                 {

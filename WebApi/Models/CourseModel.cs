@@ -15,6 +15,7 @@ namespace WebApi.Models
         /// </summary>
         [Required]
         [MaxLength(20)]
+        //[StringHasOnlyDigits]
         //[ExcludeSymbolsAttribute(new []{' '})]
         //[Required(ErrorMessageResourceType = typeof(Controllers_CourseController), ErrorMessageResourceName = "CourseModel_Name_ErrorMNessage")]
         public string Name { get; set; }
